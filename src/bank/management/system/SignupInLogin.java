@@ -50,6 +50,10 @@ public class SignupInLogin extends JFrame{
 		lblDateOfBirth.setBounds(100, 240, 200, 30);
 		add(lblDateOfBirth);
 		
+		JTextField txtDateOfBirth = new JTextField();
+		txtDateOfBirth.setBounds(280, 240, 200, 30);
+		add(txtDateOfBirth);
+		
 		JLabel lblGender = new JLabel("Gender : ");
 		lblGender.setFont(new Font("Raleway", Font.BOLD, 20));
 		lblGender.setBounds(100, 290, 200, 30);
