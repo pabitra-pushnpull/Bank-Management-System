@@ -28,7 +28,7 @@ public class SignupInLogin extends JFrame{
 		add(lblPersonalDetails);
 		
 		JLabel lblName = new JLabel("Name : ");
-		lblName.setFont(new Font("Raleway", Font.BOLD, 20));
+		lblName.setFont(new Font("Raleway", Font.BOLD, 22));
 		lblName.setBounds(100, 140, 100, 30);
 		add(lblName);
 		
