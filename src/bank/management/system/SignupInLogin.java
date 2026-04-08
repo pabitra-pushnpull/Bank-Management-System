@@ -7,6 +7,7 @@ import java.util.*;
 public class SignupInLogin extends JFrame{
 	
 	private Integer randomNumberGenerator() {
+		
 		Random randomNumber = new Random();
 		Integer randomGeneratedNumber = randomNumber.nextInt(1000 ,9999);
 		
