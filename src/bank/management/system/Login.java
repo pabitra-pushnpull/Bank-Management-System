@@ -13,7 +13,6 @@ public class Login extends JFrame implements ActionListener{
 
 	public Login() {
 		setTitle("Bank Management System");
-		
 		setLayout(null);
 		
 		ImageIcon img1 = new ImageIcon(ClassLoader.getSystemResource("icons/logo.jpg"));
