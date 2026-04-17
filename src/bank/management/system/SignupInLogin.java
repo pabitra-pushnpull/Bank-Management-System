@@ -91,7 +91,6 @@ public class SignupInLogin extends JFrame{
 		add(lblState);
 		
 		getContentPane().setBackground(Color.WHITE);
-		
 		setSize(750, 770);
 		setLocation(410, 30);
 		setVisible(true);
