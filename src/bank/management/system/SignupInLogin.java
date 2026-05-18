@@ -10,7 +10,6 @@ public class SignupInLogin extends JFrame{
 		
 		Random randomNumber = new Random();
 		Integer randomGeneratedNumber = randomNumber.nextInt(1000 ,9999);
-		
 		return randomGeneratedNumber;
 	}
 
