@@ -87,15 +87,13 @@ public class Login extends JFrame implements ActionListener{
 			pinTextField.setText("");
 			
 		}else if (e.getSource() == signUp) {
-			
+			setVisible(false);
+			new SignupInLogin().setVisible(true);
 		}
 		
 	}
 	
 	public static void main(String[] args) {
-		
-		
-		System.out.println("Hello !");
 		
 		new Login();
 		
