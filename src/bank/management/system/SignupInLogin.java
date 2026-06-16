@@ -32,9 +32,9 @@ public class SignupInLogin extends JFrame implements ActionListener{
 	JButton btnNext;
 	
 	private Integer randomNumberGenerator() {
+		
 		Random randomNumber = new Random();
 		Integer randomGeneratedNumber = randomNumber.nextInt(1000 ,9999);
-		
 		return randomGeneratedNumber;
 	}
 
@@ -56,6 +56,7 @@ public class SignupInLogin extends JFrame implements ActionListener{
 		JLabel lblName = new JLabel("Name : ");
 		lblName.setFont(new Font("Times New Roman", Font.PLAIN, 24));
 		lblName.setBounds(40, 140, 100, 30);
+//		lblName.setBounds(100, 140, 100, 30);
 		add(lblName);
 		
 		txtName = new JTextField();
